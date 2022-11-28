@@ -1,2 +1,4 @@
 # Baekjoon_solved_code
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+
+> 파이썬 공부를 위해서 푸는 백준 문제입니다!
+> 파이썬 능숙하게 할 때 까지!
