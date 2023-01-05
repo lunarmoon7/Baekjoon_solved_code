@@ -1,5 +1,5 @@
 def solution(elements):
-    answer = 0
+    # sol 1 - 너무 느림
     seq_set = set()
     n = len(elements)
     elements += elements
