@@ -21,6 +21,6 @@ def solution(queue1, queue2):
             answer += 1
         else:
             break
-        if answer == len(queue1) * 4: return -1
+        if answer == len(queue1) * 2: return -1
         
     return answer
