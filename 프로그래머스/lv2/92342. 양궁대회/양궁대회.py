@@ -27,13 +27,8 @@ def dfs(n, info, shots, idx):
             answer.append(ret)
         return 
     if info[idx] < n:
-        shots.append(info[idx] + 1)
-        dfs(n - info[idx] - 1, info, shots, idx + 1)
-        shots.pop()
-    
-    shots.append(0)
-    dfs(n, info, shots, idx + 1)
-    shots.pop()
+        dfs(n - info[idx] - 1, info, shots + [info[idx] + 1], idx + 1)    
+    dfs(n, info, shots + [0], idx + 1)
 
 def solution(n, info):
     global max_diff, answer
